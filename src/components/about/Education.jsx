@@ -2,22 +2,22 @@ import React from "react";
 
 const educationContent = [
   {
-    year: "2024",
+    year: "2023",
     degree: "BS Software Engineering Degree",
-    institute: "The Islamia University Of Bahawalpur",
-    details: `3.88 /4 CGPA (6th semester)`,
+    institute: "GCUF | Government College University Faisalabad",
+    details: `3.44 /4 CGPA`,
   },
   {
-    year: "2020",
-    degree: "FSC Pre-Engineering",
-    institute: "GOVT Boys Degree College Block 17",
-    details: `951/1100`,
+    year: "2019",
+    degree: "ICS computer-science",
+    institute: "GOVT Boys Degree College Qaboola",
+    details: `851/1100`,
   },
   {
-    year: "2018",
+    year: "2017",
     degree: "Matric ",
-    institute: "COEGBHSN#1",
-    details: `945/1100`,
+    institute: "ISLAMIC SCHOOL",
+    details: `864/1100`,
   },
 ];
 

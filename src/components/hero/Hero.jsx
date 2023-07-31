@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 import Modal from "react-modal";
-import heroImgMobile from "../../../public/assets/img/hero/img-mobile.jpg";
+import heroImgMobile from "../../../public/assets/img/hero/hero.gif";
 import cancelImg from "../../../public/assets/img/cancel.svg";
 import AboutMain from "../about";
 import Image from "next/image";
 
 const heroContent = {
-  heroImage: "/assets/img/hero/Home_Img.jpg",
+  heroImage: "https://camo.githubusercontent.com/683e2187241c641430216c864ce93fc5a0e0dfb232c5a01d1c54b54d63aa8cb2/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f313136323037372f73637265656e73686f74732f333834383931342f70726f6772616d6d65722e676966",
   heroMobileImage: heroImgMobile,
-  heroTitleName: "M.Safeer Hussain",
-  heroDesignation: "JavaScript Enthusiast",
+  heroTitleName: "Muneeb Rasheed",
+  heroDesignation: "Full stack web developer",
   heroDescriptions: `I'm a Pakistan based web designer &  developer focused on
-  crafting clean & user‑friendly experiences. I have 2+ year of an experience in javaScript Tech Stack like React & Next JS. I am passionate about building excellent software that improves the lives of those around me.`,
+  crafting clean & user‑friendly experiences. I have 2+ year of an experience in javaScript&python Tech Stack like React , Next JS ,Node JS & Django  I am passionate about building excellent software that improves the lives of those around me.`,
   heroBtn: "About Me",
 };
 
@@ -26,7 +26,7 @@ const Hero = () => {
       <div className="row home-details-container align-items-center">
         <div
           className="col-lg-4 bg position-fixed d-none d-lg-block"
-          style={{ backgroundImage: `url(${heroContent.heroImage})` }}
+          style={{ backgroundImage: `url(${heroContent.heroImage})`,objectFit:"cover" }}
         ></div>
         <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
           <div>

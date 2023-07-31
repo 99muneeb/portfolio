@@ -4,7 +4,7 @@ const experienceContent = [
   {
     year: "   09/2022 - Present",
     position: " Web Developer",
-    compnayName: "Tech Innovaters",
+    compnayName: "STATUS 200",
     details: `I'm working their on service based criteria as i work on the maintenance of
     their client's sites or adopting new technology in it.
     I also changes the client's sites from different programming language to
@@ -12,10 +12,17 @@ const experienceContent = [
   },
   {
     year: "05/2021 - 08/2022",
-    position: " Web Developer",
-    compnayName: "Freelance Bahawalpur",
+    position: "Django developer",
+    compnayName: "IT Soft",
     details: `I'm working their on product based criteria as i do maintenance of their
     client's sites or introduce new technology criteria in their sites.`,
+  },
+  {
+    year: "12/2020 - 02/2021",
+    position: "Web development Intern",
+    compnayName: "Social Tech",
+    details: `I'm working their on Client based criteria as i do maintenance of their
+    client's sites and learn Web development.`,
   },
   
 ];

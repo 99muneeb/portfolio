@@ -1,15 +1,15 @@
 import React from "react";
 
 const personalInfoContent = [
-  { meta: "first name", metaInfo: "Muhammmad Safeer", hasColor: "" },
-  { meta: "last name", metaInfo: "Hussain", hasColor: "" },
-  { meta: "Age", metaInfo: "20 Years", hasColor: "" },
+  { meta: "first name", metaInfo: "Muneeb", hasColor: "" },
+  { meta: "last name", metaInfo: "Rasheed", hasColor: "" },
+  { meta: "Age", metaInfo: "23 Years", hasColor: "" },
   { meta: "Nationality", metaInfo: "Pakistani", hasColor: "" },
   { meta: "Freelance", metaInfo: "Available", hasColor: "green" },
-  { meta: "Address", metaInfo: "Bahawalpur, PB,PK", hasColor: "" },
-  { meta: "phone", metaInfo: "+923351805883", hasColor: "" },
-  { meta: "Email", metaInfo: "msafeerhussain13@gmail.com", hasColor: "" },
-  { meta: "Facebook", metaInfo: "msafeerhussain1214", hasColor: "" },
+  { meta: "Address", metaInfo: "ArifWala,Pakpattan,PK", hasColor: "" },
+  { meta: "phone", metaInfo: "+923041630299", hasColor: "" },
+  { meta: "Email", metaInfo: "muneeb9166@gmail.com", hasColor: "" },
+  { meta: "Linkedin", metaInfo: "muneeb99", hasColor: "" },
   { meta: "langages", metaInfo: "English & Urdu", hasColor: "" },
 ];
 

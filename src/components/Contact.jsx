@@ -17,7 +17,7 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          console.log(result)
+          // console.log(result)
           toast.success("Message Sent Successfully!", {
             position: "top-right",
             autoClose: 2000,
