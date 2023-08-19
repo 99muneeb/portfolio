@@ -4,7 +4,7 @@ import Education from "./Education";
 import Experience from "./Experience";
 import PersonalInfo from "./PersonalInfo";
 import Skills from "./Skills";
-import heroImgMobile from "../../../public/assets/img/hero/img-mobile.jpg";
+import heroImgMobile from "../../../public/assets/img/hero/mobile.jpg";
 import Image from "next/image";
 
 const index = () => {
@@ -38,7 +38,7 @@ const index = () => {
               {/* End personal info */}
 
               <div className="col-12 mt-1">
-                <a className="button" href="https://drive.google.com/file/d/1br-Et3beOSpY9gWNxCwp3jzejcNcbs_Y/view?usp=sharing"  download>
+                <a className="button" href="https://drive.google.com/file/d/1Jl5NEmKpWEKHX-FCb7MUP85SFHYXCxlo/view?usp=sharing"  download>
                   <span className="button-text">Download CV</span>
                   <span className="button-icon fa fa-download"></span>
                 </a>
