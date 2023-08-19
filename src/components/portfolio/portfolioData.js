@@ -1,17 +1,17 @@
-import Image1 from "../../../public/assets/img/portfolio/08.png";
-import Image2 from "../../../public/assets/img/portfolio/03.jpg";
-import Image3 from "../../../public/assets/img/portfolio/05.jpg";
-import Image4 from "../../../public/assets/img/portfolio/06.png";
+import Image1 from "../../../public/assets/img/portfolio/Web-Developer.png";
+import Image2 from "../../../public/assets/img/portfolio/aircon.png";
+import Image3 from "../../../public/assets/img/portfolio/Enrapture-Reality-Broken.png";
+import Image4 from "../../../public/assets/img/portfolio/BREAKCOMP-Sport-Cards-Price-Comparison .png";
 import Image5 from "../../../public/assets/img/portfolio/07.png";
 import Image6 from "../../../public/assets/img/portfolio/01.jpg";
 import Image7 from "../../../public/assets/img/portfolio/02.jpg";
-import Image8 from "../../../public/assets/img/portfolio/09.png";
-import Image9 from "../../../public/assets/img/portfolio/04.jpg";
+import Image8 from "../../../public/assets/img/portfolio/Lutech-Global.png";
+import Image9 from "../../../public/assets/img/portfolio/Invoice.png";
 
 const PortfolioData = [
   {
     id: 1,
-    type: "React Portfolio Site",
+    type: "Next.js Portfolio Site",
     image: Image1,
     tag: ["Custom Site"],
     delayAnimation: "0",
@@ -19,57 +19,57 @@ const PortfolioData = [
       {
         project: "Personal Portfolio",
         client: "Personal",
-        language: "ReactJS, CSS, JS",
+        language: "NextJs, CSS, JS",
         preview: "View Project",
-        link: "https://msafeerhussain.github.io/React_portfolio/",
+        link: "https://99muneeb.github.io/portfolio/",
       },
     ],
   },
   {
     id: 2,
-    type: "Personal Portfolio In HTML",
+    type: "Car Zone Project",
     image: Image2,
     tag: ["Custom Site"],
     delayAnimation: "100",
     modalDetails: [
       {
-        project: "Personal Portfolio",
+        project: "Car's Zone buy and sell",
         client: "Joy",
-        language: "HTML, CSS, JS",
-        preview: "View Project",
-        link: "https://msafeerhussain.github.io/HTML-portfolio/",
+        language: "HTML, CSS, JS,Django",
+        preview: "contact-me",
+        link: "https://wa.me/+923041630299",
       },
     ],
   },
   {
     id: 3,
-    type: "Ecommerce Store Template",
+    type: "Enrapture Reality-broken",
     image: Image3,
     tag: ["Custom Site"],
     delayAnimation: "200",
     modalDetails: [
       {
-        project: "Ecommerce Store Template",
-        client: "Ibrahim",
-        language: " HTML, CSS, Javascript",
+        project: "Enrapture - Passionate Virtual-World ",
+        client:"Manuel Bolognesi",
+        language: "React,three.js,Node js",
         preview: "View Project",
-        link: "https://msafeerhussain.github.io/Ecommerce_site_template/",
+        link: "https://enrapture.world/",
       },
     ],
   },
   {
     id: 4,
-    type: "Construction Company Site",
+    type: "BREAKCOMP Sport-Cards",
     image: Image4,
     tag: ["Custom Site"],
     delayAnimation: "0",
     modalDetails: [
       {
-        project: "Business Site",
-        client: "Huzaifa",
+        project: "BREAKCOMP Sport-Cards Price-Comparison",
+        client: "Tobias",
         language: "HTML, CSS , JS",
         preview: "View Project",
-        link: "https://msafeerhussain.github.io/Construction_Company_website/",
+        link: "https://breakcomp.com/",
       },
     ],
   },
@@ -123,33 +123,33 @@ const PortfolioData = [
   },
   {
     id: 8,
-    type: "Speed optimization",
+    type: "LuTech Global Platform",
     image: Image8,
     tag: ["Wordpress"],
     delayAnimation: "0",
     modalDetails: [
       {
-        project: "Speed Optimization",
-        client: "Mr. Wahib",
+        project: "Blog website serves as a comprehensive platform",
+        client: "LuTech",
         language: "Wordpress Site",
-        preview: "Contact me",
-        link: "https://wa.me/+923351806883",
+        preview: "View Project",
+        link: "https://lutechglobal.com/",
       },
     ],
   },
   {
     id: 9,
-    type: "Image Gallery",
+    type: "Ac Service Invoice",
     image: Image9,
     tag: ["Custom Site"],
     delayAnimation: "0",
     modalDetails: [
       {
-        project: "Website",
-        client: "Dr. Nadeem Akhter",
-        language: "HTML, CSS, JS",
-        preview: "View Project",
-        link: "https://msafeerhussain.github.io/Image_gallery/",
+        project: "Ac service create pdf invoice bill in django",
+        client: "Mr.Tuseef",
+        language: "HTML, CSS, JS ,Django",
+        preview: "contact me",
+        link: "https://wa.me/+923041630299",
       },
     ],
   },

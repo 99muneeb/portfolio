@@ -10,7 +10,7 @@ const AllBlogData = () => {
       id: 1,
       img: img1,
       title: "Swag by HactoberFest",
-      commentor: "Safeer",
+      commentor: "Muneeb",
       date: "21 April 2023",
       tag: `hacktoberfest`,
       description1:
@@ -25,7 +25,7 @@ const AllBlogData = () => {
       id: 2,
       img: img2,
       title: "Goodbye Create React App",
-      commentor: "Safeer",
+      commentor: "Muneeb",
       date: "14 January 2023",
       tag: `React`,
       description1:
@@ -41,7 +41,7 @@ const AllBlogData = () => {
       id: 3,
       img: img3,
       title: "Web Developer? Terms you should understand!",
-      commentor: "Sharjeel Yunus ",
+      commentor: "junad",
       date: "9 January 2023",
       tag: `webdev,codenewbie,programming,beginners`,
       description1:
