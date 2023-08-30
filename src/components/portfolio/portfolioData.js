@@ -2,7 +2,7 @@ import Image1 from "../../../public/assets/img/portfolio/Web-Developer.png";
 import Image2 from "../../../public/assets/img/portfolio/aircon.png";
 import Image3 from "../../../public/assets/img/portfolio/Enrapture-Reality-Broken.png";
 import Image4 from "../../../public/assets/img/portfolio/BREAKCOMP-Sport-Cards-Price-Comparison .png";
-import Image5 from "../../../public/assets/img/portfolio/07.png";
+import Image5 from "../../../public/assets/img/portfolio/David-Ellis.png";
 import Image6 from "../../../public/assets/img/portfolio/01.jpg";
 import Image7 from "../../../public/assets/img/portfolio/02.jpg";
 import Image8 from "../../../public/assets/img/portfolio/Lutech-Global.png";
@@ -75,17 +75,17 @@ const PortfolioData = [
   },
   {
     id: 5,
-    type: "Online Watch Store",
+    type: "Portfolio",
     image: Image5,
     tag: ["Custom Site"],
     delayAnimation: "100",
     modalDetails: [
       {
-        project: "Ecommerce Store",
-        client: "Ahmed",
-        language: "HTML, CSS, JS",
+        project: "PortFolio Website",
+        client: "David Ellis",
+        language: "React,Node js",
         preview: "View Project",
-        link: "https://msafeerhussain.github.io/Watch_store_template/",
+        link: "https://dex.davidellis.co.uk/",
       },
     ],
   },

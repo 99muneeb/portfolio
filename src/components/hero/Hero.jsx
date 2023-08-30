@@ -11,7 +11,7 @@ const heroContent = {
   heroTitleName: "Muneeb Rasheed",
   heroDesignation: "Full stack web developer",
   heroDescriptions: `I'm a Pakistan based web designer &  developer focused on
-  crafting clean & user‑friendly experiences. I have 2+ year of an experience in javaScript&python Tech Stack like React , Next JS ,Node JS & Django  I am passionate about building excellent software that improves the lives of those around me.`,
+  crafting clean & user‑friendly experiences. I have 1+ year of an experience in javaScript&python Tech Stack like React , Next JS ,Node JS & Django  I am passionate about building excellent software that improves the lives of those around me.`,
   heroBtn: "About Me",
 };
 
