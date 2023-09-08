@@ -67,7 +67,7 @@ const PortfolioData = [
       {
         project: "BREAKCOMP Sport-Cards Price-Comparison",
         client: "Tobias",
-        language: "HTML, CSS , JS",
+        language: "React & Node js",
         preview: "View Project",
         link: "https://breakcomp.com/",
       },
