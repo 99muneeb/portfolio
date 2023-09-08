@@ -8,7 +8,7 @@ const SocialShare = [
   { iconName: "fa fa-whatsapp", link: "https://wa.me/+923041630299" },
   {
     iconName: "fa fa-linkedin",
-    link: "https://www.linkedin.com/in/muneeb99",
+    link: "https://www.linkedin.com/in/muneeb-99/",
   },
   { iconName: "fa fa-github", link: "https://github.com/99muneeb" },
 ];
