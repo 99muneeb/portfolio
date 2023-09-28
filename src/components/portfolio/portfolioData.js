@@ -7,7 +7,7 @@ import Image6 from "../../../public/assets/img/portfolio/01.jpg";
 import Image7 from "../../../public/assets/img/portfolio/02.jpg";
 import Image8 from "../../../public/assets/img/portfolio/Lutech-Global.png";
 import Image9 from "../../../public/assets/img/portfolio/Invoice.png";
-
+console
 const PortfolioData = [
   {
     id: 1,
@@ -79,6 +79,7 @@ const PortfolioData = [
     image: Image5,
     tag: ["Custom Site"],
     delayAnimation: "100",
+  
     modalDetails: [
       {
         project: "PortFolio Website",
