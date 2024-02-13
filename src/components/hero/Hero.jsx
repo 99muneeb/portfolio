@@ -6,7 +6,8 @@ import AboutMain from "../about";
 import Image from "next/image";
 import myphoto from "../../../public/assets/muneeb.png";
 const heroContent = {
-  myphoto: myphoto,
+  heroImgMobile:
+    "https://www.kindpng.com/picc/m/370-3704903_programmer-illustration-hd-png-download.png",
   heroTitleName: "Muneeb Rasheed",
   heroDesignation: "Full stack web developer",
   heroDescriptions: `I'm a Pakistan based web designer &  developer focused on
@@ -26,7 +27,7 @@ const Hero = () => {
         <div
           className="col-lg-4 bg position-fixed d-none d-lg-block"
           style={{
-            backgroundImage: `url(${heroContent.myphoto})`,
+            backgroundImage: `url(${heroContent.heroImgMobile})`,
             objectFit: "cover",
           }}
         ></div>
