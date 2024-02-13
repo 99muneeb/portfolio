@@ -4,10 +4,9 @@ import heroImgMobile from "../../../public/assets/img/hero/hero.gif";
 import cancelImg from "../../../public/assets/img/cancel.svg";
 import AboutMain from "../about";
 import Image from "next/image";
-
+import myphoto from "../../../public/assets/muneeb.png";
 const heroContent = {
-  heroImage: "https://camo.githubusercontent.com/683e2187241c641430216c864ce93fc5a0e0dfb232c5a01d1c54b54d63aa8cb2/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f313136323037372f73637265656e73686f74732f333834383931342f70726f6772616d6d65722e676966",
-  heroMobileImage: heroImgMobile,
+  myphoto: myphoto,
   heroTitleName: "Muneeb Rasheed",
   heroDesignation: "Full stack web developer",
   heroDescriptions: `I'm a Pakistan based web designer &  developer focused on
@@ -26,12 +25,15 @@ const Hero = () => {
       <div className="row home-details-container align-items-center">
         <div
           className="col-lg-4 bg position-fixed d-none d-lg-block"
-          style={{ backgroundImage: `url(${heroContent.heroImage})`,objectFit:"cover" }}
+          style={{
+            backgroundImage: `url(${heroContent.myphoto})`,
+            objectFit: "cover",
+          }}
         ></div>
         <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
           <div>
             <Image
-              src={heroContent.heroMobileImage}
+              src={heroContent.myphoto}
               className="img-fluid main-img-mobile d-sm-block d-lg-none"
               alt="hero man"
               // style={{width:'100%',height:'100%'}}
