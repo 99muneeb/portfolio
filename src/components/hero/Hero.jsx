@@ -10,8 +10,7 @@ const heroContent = {
     "https://www.kindpng.com/picc/m/370-3704903_programmer-illustration-hd-png-download.png",
   heroTitleName: "Muneeb Rasheed",
   heroDesignation: "Full stack web developer",
-  heroDescriptions: `I'm a Pakistan based web designer &  developer focused on
-  crafting clean & user‑friendly experiences. I have 1+ year of an experience in javaScript&python Tech Stack like React , Next JS ,Node JS & Django  I am passionate about building excellent software that improves the lives of those around me.`,
+  heroDescriptions: `I'm a web designer and developer dedicated to crafting clean and user-friendly experiences. With 2 years of experience in JavaScript and Python tech stacks, including Angular React, Next.js, Node.js, and Django, I am passionate about building excellent software that enhances the lives of those around me.`,
   heroBtn: "About Me",
 };
 

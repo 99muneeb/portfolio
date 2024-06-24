@@ -52,62 +52,59 @@ const Portfolio = () => {
 
             <TabPanel>
               <div className="tab-container">
-                {PortfolioData.filter((item) => item.tag.includes("Custom Site")).map(
-                  (item) => {
-                    const { id, type, image, delayAnimation } = item;
-                    return (
+                {PortfolioData.filter((item) =>
+                  item.tag.includes("Custom Site")
+                ).map((item) => {
+                  const { id, type, image, delayAnimation } = item;
+                  return (
+                    <div
+                      key={id}
+                      data-aos="fade-right"
+                      data-aos-delay={delayAnimation}
+                    >
                       <div
-                        key={id}
-                        data-aos="fade-right"
-                        data-aos-delay={delayAnimation}
+                        className="tab-content"
+                        onClick={() => handleModal(id)}
                       >
-                        <div
-                          className="tab-content"
-                          onClick={() => handleModal(id)}
-                        >
-                          <Image src={image} alt="portfolio project demo" />
-                          <h3>
-                            <span className="conent-title">{type}</span>
-                          </h3>
-                        </div>
-                        {/* {getModal && <Modal props={modalId} />} */}
+                        <Image src={image} alt="portfolio project demo" />
+                        <h3>
+                          <span className="conent-title">{type}</span>
+                        </h3>
                       </div>
-                    );
-                  }
-                )}
+                      {/* {getModal && <Modal props={modalId} />} */}
+                    </div>
+                  );
+                })}
               </div>
             </TabPanel>
 
             <TabPanel>
               <div className="tab-container">
-                {PortfolioData.filter((item) => item.tag.includes("Wordpress")).map(
-                  (item) => {
-                    const { id, type, image, delayAnimation } = item;
-                    return (
+                {PortfolioData.filter((item) =>
+                  item.tag.includes("Wordpress")
+                ).map((item) => {
+                  const { id, type, image, delayAnimation } = item;
+                  return (
+                    <div
+                      key={id}
+                      data-aos="fade-right"
+                      data-aos-delay={delayAnimation}
+                    >
                       <div
-                        key={id}
-                        data-aos="fade-right"
-                        data-aos-delay={delayAnimation}
+                        className="tab-content"
+                        onClick={() => handleModal(id)}
                       >
-                        <div
-                          className="tab-content"
-                          onClick={() => handleModal(id)}
-                        >
-                        
-                          <Image src={image} alt="portfolio project demo" />
-                          <h3>
-                            <span className="conent-title">{type}</span>
-                          </h3>
-                        </div>
-                        {/* {getModal && <Modal props={modalId} />} */}
+                        <Image src={image} alt="portfolio project demo" />
+                        <h3>
+                          <span className="conent-title">{type}</span>
+                        </h3>
                       </div>
-                    );
-                  }
-                )}
+                      {/* {getModal && <Modal props={modalId} />} */}
+                    </div>
+                  );
+                })}
               </div>
             </TabPanel>
-
-            
           </div>
         </Tabs>
       </div>

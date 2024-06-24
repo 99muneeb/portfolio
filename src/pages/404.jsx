@@ -16,7 +16,9 @@ const NotFound = () => {
             404!
           </h1>
           <p data-aos="fade-up" data-aos-duration="1200" data-aos-delay="50">
-            The page you are looking for could not be found! Please visit to homepage to see the portfolio.<br /> Regards <br /> Muhammad Safeer Hussain
+            The page you are looking for could not be found! Please visit to
+            homepage to see the portfolio.
+            <br /> Regards <br /> Muneeb Rasheed
           </p>
 
           <div

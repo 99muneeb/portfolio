@@ -7,7 +7,11 @@ import Image6 from "../../../public/assets/img/portfolio/01.jpg";
 import Image7 from "../../../public/assets/img/portfolio/02.jpg";
 import Image8 from "../../../public/assets/img/portfolio/Lutech-Global.png";
 import Image9 from "../../../public/assets/img/portfolio/Invoice.png";
-console
+import Image10 from "../../../public/assets/img/portfolio/Screenshot (166).png";
+import Image11 from "../../../public/assets/img/portfolio/Screenshot (179).png";
+import Image12 from "../../../public/assets/img/portfolio/Screenshot (180).png";
+
+console;
 const PortfolioData = [
   {
     id: 1,
@@ -50,7 +54,7 @@ const PortfolioData = [
     modalDetails: [
       {
         project: "Enrapture - Passionate Virtual-World ",
-        client:"Manuel Bolognesi",
+        client: "Manuel Bolognesi",
         language: "React,three.js,Node js",
         preview: "View Project",
         link: "https://enrapture.world/",
@@ -79,7 +83,7 @@ const PortfolioData = [
     image: Image5,
     tag: ["Custom Site"],
     delayAnimation: "100",
-  
+
     modalDetails: [
       {
         project: "PortFolio Website",
@@ -154,7 +158,57 @@ const PortfolioData = [
       },
     ],
   },
-  
+  {
+    id: 10,
+    type: "Enable Life care",
+    image: Image10,
+    tag: ["Custom Site"],
+    delayAnimation: "0",
+    modalDetails: [
+      {
+        project:
+          "Enabel life care Dahboareds Super admin , OT , Dealer Admin and dealer Rep in Mern Stack",
+        client: "Mr.Brett Williams",
+        language: "HTML, CSS, JS , Tailwind css , React js , MongoDB , Node Js",
+        preview: "View Project",
+        link: "https://superadmin.app.enablelifecare.com.au",
+      },
+    ],
+  },
+  {
+    id: 11,
+    type: "Cyclepedia",
+    image: Image11,
+    tag: ["Custom Site"],
+    delayAnimation: "0",
+    modalDetails: [
+      {
+        project:
+          "Cyclepedia project with user , Admin and Technician Dashboard in Mern Stack ",
+        client: "Mr.Nick",
+        language: "HTML, CSS, JS , Tailwind css , React js , MongoDB , Node Js",
+        preview: "contact me",
+        link: "https://wa.me/+923041630299",
+      },
+    ],
+  },
+  {
+    id: 12,
+    type: "Climate Master KSA Ac Services",
+    image: Image12,
+    tag: ["Custom Site"],
+    delayAnimation: "0",
+    modalDetails: [
+      {
+        project:
+          "Ac Services project with Appointment booking and create invoice and Qotaction ",
+        client: "Mr.Tusif",
+        language: "HTML, CSS, JS , Tailwind css , React js , MongoDB , Node Js",
+        preview: "View Project",
+        link: "https://www.climatemasterksa.com/",
+      },
+    ],
+  },
 ];
 
 export default PortfolioData;

@@ -3,7 +3,7 @@ import React from "react";
 const educationContent = [
   {
     year: "2023",
-    degree: "BS Software Engineering Degree",
+    degree: "BS Information technology  Degree",
     institute: "GCUF | Government College University Faisalabad",
     details: `3.44 /4 CGPA`,
   },
