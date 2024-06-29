@@ -5,7 +5,7 @@ const personalInfoContent = [
   { meta: "last name", metaInfo: "Rasheed", hasColor: "" },
   { meta: "Age", metaInfo: "24 Years", hasColor: "" },
   { meta: "Nationality", metaInfo: "Pakistani", hasColor: "" },
-  { meta: "Freelance", metaInfo: "Available", hasColor: "green" },
+  // { meta: "Freelance", metaInfo: "Available", hasColor: "green" },
   { meta: "Address", metaInfo: "ArifWala,Pakpattan,PK", hasColor: "" },
   { meta: "phone", metaInfo: "+923041630299", hasColor: "" },
   {
