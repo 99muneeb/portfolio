@@ -10,6 +10,7 @@ import Image9 from "../../../public/assets/img/portfolio/Invoice.png";
 import Image10 from "../../../public/assets/img/portfolio/Screenshot (166).png";
 import Image11 from "../../../public/assets/img/portfolio/Screenshot (179).png";
 import Image12 from "../../../public/assets/img/portfolio/Screenshot (180).png";
+import Image13 from "../../../public/assets/img/portfolio/Ladies-Collection.png";
 
 console;
 const PortfolioData = [
@@ -206,6 +207,22 @@ const PortfolioData = [
         language: "HTML, CSS, JS , Tailwind css , React js , MongoDB , Node Js",
         preview: "View Project",
         link: "https://www.climatemasterksa.com/",
+      },
+    ],
+  },
+  {
+    id: 13,
+    type: "Ecommerce Store Ladies-Collection",
+    image: Image13,
+    tag: ["Wordpress"],
+    delayAnimation: "0",
+    modalDetails: [
+      {
+        project: "Ecommerce Store Ladies-Collection",
+        client: "Mr.Ahmad",
+        language: "Shopify",
+        preview: "View Project",
+        link: "https://ladiescollection.pk",
       },
     ],
   },

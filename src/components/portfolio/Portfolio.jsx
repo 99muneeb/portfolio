@@ -20,7 +20,7 @@ const Portfolio = () => {
           <TabList className="portfolio-tab-list" data-aos="fade-up">
             <Tab>ALL</Tab>
             <Tab>Custom Site</Tab>
-            <Tab>Wordpress</Tab>
+            <Tab>Wordpress/Shopify</Tab>
           </TabList>
 
           <div className="container">
