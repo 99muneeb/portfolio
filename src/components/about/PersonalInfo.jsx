@@ -6,8 +6,12 @@ const personalInfoContent = [
   { meta: "Age", metaInfo: "24 Years", hasColor: "" },
   { meta: "Nationality", metaInfo: "Pakistani", hasColor: "" },
   // { meta: "Freelance", metaInfo: "Available", hasColor: "green" },
-  { meta: "Address", metaInfo: "ArifWala,Pakpattan,PK", hasColor: "" },
-  { meta: "phone", metaInfo: "+923041630299", hasColor: "" },
+  {
+    meta: "Address",
+    metaInfo: "Al Nuzha, Riyadh, Saudi Arabia ",
+    hasColor: "",
+  },
+  { meta: "phone", metaInfo: "+966578035338", hasColor: "" },
   {
     meta: "Email",
     metaInfo: "muneeb.software.dev@gmail.com",
