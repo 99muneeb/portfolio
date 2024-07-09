@@ -40,7 +40,7 @@ const index = () => {
               <div className="col-12 mt-1">
                 <a
                   className="button"
-                  href="https://drive.google.com/file/d/1JktiJ6hm9pDDzxI1DG7LuSPapQw-XFzB/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1U8jF4_fzWTVIh4IrJ7NHeQXfqpjOHk9B/view?usp=sharing"
                   download
                 >
                   <span className="button-text">Download CV</span>
