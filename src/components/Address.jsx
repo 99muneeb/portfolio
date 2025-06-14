@@ -21,7 +21,7 @@ const Address = () => {
       <p className="open-sans-font custom-span-contact position-relative">
         <i className="fa fa-phone-square position-absolute"></i>
         <span className="d-block">Whatsapp me</span>{" "}
-        <a href="https://wa.me/+92304-1630299">+92304-1630299</a>
+        <a href="https://wa.me/+966578035338">+966578035338</a>
       </p>
       {/* End .custom-span-contact */}
     </>

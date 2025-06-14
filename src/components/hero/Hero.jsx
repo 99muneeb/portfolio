@@ -4,13 +4,13 @@ import heroImgMobile from "../../../public/assets/img/hero/hero.gif";
 import cancelImg from "../../../public/assets/img/cancel.svg";
 import AboutMain from "../about";
 import Image from "next/image";
-import myphoto from "../../../public/assets/muneeb.png";
+import myphoto from "../../../public/assets/img/hero/mobile.jpg";
 const heroContent = {
   heroImgMobile:
     "https://www.kindpng.com/picc/m/370-3704903_programmer-illustration-hd-png-download.png",
   heroTitleName: "Muneeb Rasheed",
-  heroDesignation: "Full stack web developer",
-  heroDescriptions: `I'm a web designer and developer dedicated to crafting clean and user-friendly experiences. With 3+  years of experience in JavaScript and Python tech stacks, including Angular, React, Next.js, Node.js, and Django, I am passionate about building excellent software that enhances the lives of those around me. Proficient in WordPress and Shopify for creating robust CMS-driven and e-commerce solutions.`,
+  heroDesignation: "🖥️ IT Support Engineer",
+  heroDescriptions: `I bring over 5+ years of experience not only in web and software development but also as an IT Support Engineer. My work includes resolving desktop issues, installing and configuring operating systems like Windows and Linux, and providing technical support for both hardware and software. I’m skilled in setting up and managing networks, user accounts, and ensuring smooth day-to-day IT operations. This background enables me to maintain reliable, secure development environments and deliver full-stack web solutions backed by strong infrastructure knowledge.`,
   heroBtn: "About Me",
 };
 
@@ -33,7 +33,7 @@ const Hero = () => {
         <div className="col-12 col-lg-8 offset-lg-4 home-details  text-center text-lg-start">
           <div>
             <Image
-              src={heroContent.myphoto}
+              src={myphoto}
               className="img-fluid main-img-mobile d-sm-block d-lg-none"
               alt="hero man"
               // style={{width:'100%',height:'100%'}}
