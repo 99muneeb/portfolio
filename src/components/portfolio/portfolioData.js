@@ -1,5 +1,6 @@
 import Image1 from "../../../public/assets/img/portfolio/Web-Developer.png";
 import Image2 from "../../../public/assets/img/portfolio/aircon.png";
+
 import Image3 from "../../../public/assets/img/portfolio/Enrapture-Reality-Broken.png";
 import Image4 from "../../../public/assets/img/portfolio/BREAKCOMP-Sport-Cards-Price-Comparison .png";
 import Image5 from "../../../public/assets/img/portfolio/David-Ellis.png";
@@ -26,7 +27,7 @@ const PortfolioData = [
         client: "Personal",
         language: "NextJs, CSS, JS",
         preview: "View Project",
-        link: "https://99muneeb.github.io/portfolio/",
+        link: "https://portfolio-mu-cyan-83.vercel.app/",
       },
     ],
   },
@@ -38,11 +39,11 @@ const PortfolioData = [
     delayAnimation: "100",
     modalDetails: [
       {
-        project: "Car's Zone buy and sell",
+        project: "Car's Zone for rent Car",
         client: "Joy",
-        language: "HTML, CSS, JS,Django",
-        preview: "contact-me",
-        link: "https://wa.me/+923041630299",
+        language: "HTML, CSS, JS, Django",
+        preview: "View Project",
+        link: "https://www.carzonrent.com",
       },
     ],
   },
